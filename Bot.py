@@ -6,7 +6,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, CallbackQueryHandler, MessageHandler, filters
 
 # === Настройки ===
-BOT_TOKEN = os.getenv("7659801527:AAEVQxwPFm6HBLFFi0SoEpjdpkunolyuAro"
+BOT_TOKEN = "7659801527:AAEVQxwPFm6HBLFFi0SoEpjdpkunolyuAro"
 ADMIN_IDS = [5445206649]
 GROUPS_FILE = "groups.txt"
 awaiting_admin_action = {}
